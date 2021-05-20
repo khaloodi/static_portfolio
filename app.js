@@ -13,8 +13,14 @@ app.use('/static', express.static('public'))
 // tells express which template engine to use, by default templates are saved in a folder called views
 app.set('view engine', 'pug')
 
-const mainRoutes = require('./routes')
-app.use(mainRoutes)
+//routes
+const index = require('./routes')
+const about = require('./routes/about')
+const project = require('./routes/project')
+
+app.use('/about', about)
+app.use('/project', project)
+app.use('/', index)
 
 // setup developmentserver
 // takes port number as parameter
