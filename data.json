@@ -1,0 +1,14 @@
+{
+    "projects": [{
+        "id": 0,
+        "project_name": "Deforestation Dashboard",
+        "description": "A web application that displays predictive maps generated with the folium library. The app allows users to login and save specific charts. This application was a team project, my role was to guide group collaboration and assist with Data Science linear regression models.",
+        "technologies": ["HTML", "CSS", "JavaScript", "Python"],
+        "live_link": "https://deforestationdashboard.netlify.app/map-view",
+        "github_link": "https://github.com/bw-deforestationdashboard",
+        "image_urls": [
+            "/static/images/deforestation-snapshot.png",
+            "/static/images/deforestation-landscape1.png"
+        ]
+    }]
+}
