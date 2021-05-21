@@ -6,8 +6,8 @@
         "technologies": ["HTML", "CSS", "JavaScript", "Python"],
         "live_link": "https://deforestationdashboard.netlify.app/map-view",
         "github_link": "https://github.com/bw-deforestationdashboard",
+        "main_image": "/static/images/deforestation-snapshot.png",
         "image_urls": [
-            "/static/images/deforestation-snapshot.png",
             "/static/images/deforestation-landscape1.png"
         ]
     }]
