@@ -22,6 +22,17 @@ app.use('/about', about)
 app.use('/project', project)
 app.use('/', index)
 
+// 404 Error Handler
+app.use(function(req, res, next) {
+    console.log("404 error handler called");
+    const err = new Error();
+    err.status = 404;
+    err.message =
+        "Oops!  It looks like the page you're looking for does not exist.";
+    res.status(404).render("page-not-found", { err });
+    next(err);
+});
+
 // setup developmentserver
 // takes port number as parameter
 app.listen(3000, () => {
