@@ -28,7 +28,7 @@
         },
         {
             "id": 2,
-            "project_name": "Capstone",
+            "project_name": "Financial Analytics",
             "description": "This is the capstone project I produced to obtain my Master of Science degree in Business Analytics with a focus in Finance. In this project I utilize jupyter notebooks and Python among several libraries to analyze a portfolio of five randomly selected tech stocks from the S&P 500. I utilized the Cvxopt library to generate 5000 random portfolios of which I use to calculate an efficient frontier or mix of assets.",
             "technologies": ["Python", "Yahoo Finance API", "Jupyter Notebooks", "Plotly"],
             "live_link": "https://www.khaledadad.com/capstone/",
@@ -42,7 +42,7 @@
         },
         {
             "id": 3,
-            "project_name": "Phrasehunter",
+            "project_name": "Phrase Hunter",
             "description": "A browser-based, word guessing game: \"Phrase Hunter\" uses JavaScript and OOP (Object-Oriented Programming) to display a random, hidden phrase. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard. Can you guess the phrase before running out of hearts?",
             "technologies": ["HTML/CSS", "JavaScript", "OOP"],
             "live_link": "http://www.khaloodi.github.io/phrasehunter/",
@@ -70,16 +70,16 @@
         },
         {
             "id": 5,
-            "project_name": "Deforestation Dashboard",
-            "description": "A web application that displays predictive maps generated with the folium library. The app allows users to login and save specific charts. This application was a team project, my role was to guide group collaboration and assist with Data Science linear regression models.",
-            "technologies": ["HTML", "CSS", "JavaScript", "Python"],
-            "live_link": "https://deforestationdashboard.netlify.app/map-view",
-            "github_link": "https://github.com/bw-deforestationdashboard",
-            "main_image": "/static/images/deforestation-snapshot.png",
+            "project_name": "Interactive Form",
+            "description": "Signup form utilizing modularized front-end JavaScript to allow users to register for an event. The form uses Regex (regular expression) and functional JS to valid character sequences. If any of the required fields aren't filled out, the form will reject user submission.",
+            "technologies": ["HTML/CSS", "JavaScript", "Regex"],
+            "live_link": "http://www.khaledadad.com/interactive-form/",
+            "github_link": "https://github.com/khaloodi/interactive-form",
+            "main_image": "/static/images/form-snapshot.png",
             "image_urls": [
-                "/static/images/deforestation-landscape1.png",
-                "/static/images/deforestation-landscape2.png",
-                "/static/images/deforestation-landscape3.png"
+                "/static/images/form-landscape1.png",
+                "/static/images/form-landscape2.png",
+                "/static/images/form-landscape3.png"
             ]
         }
     ]
