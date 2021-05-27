@@ -43,11 +43,11 @@ app.use((err, req, res, next) => {
     console.log(err.message);
 });
 
-// const port = process.env.PORT || 3000
+var port = process.env.PORT || 3000
 
 // setup developmentserver
 // takes port number as parameter
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log('The application is running on localhost 3000!')
 })
 
