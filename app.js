@@ -1,5 +1,5 @@
 // import modules
-const serverless = require('serverless-http') // going to serve this on aws lambda
+// const serverless = require('serverless-http') // going to serve this on aws lambda
 const express = require('express')
 const bodyParser = require('body-parser')
 const cookieParser = require('cookie-parser')
@@ -50,4 +50,4 @@ app.listen(3000, () => {
 })
 
 // wrapper for serverless
-module.exports.handler = serverless(app)
+// module.exports.handler = serverless(app)
