@@ -43,6 +43,8 @@ app.use((err, req, res, next) => {
     console.log(err.message);
 });
 
+// const port = process.env.PORT || 3000
+
 // setup developmentserver
 // takes port number as parameter
 app.listen(3000, () => {
