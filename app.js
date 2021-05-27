@@ -24,13 +24,22 @@ app.use('/', index)
 
 // 404 Error Handler
 app.use(function(req, res, next) {
-    console.log("404 error handler called");
-    const err = new Error();
-    err.status = 404;
+    const err = new Error()
+    err.status = 404
     err.message =
         "Oops!  It looks like the page you're looking for does not exist.";
-    res.status(404).render("page-not-found", { err });
-    next(err);
+    res.status(404).render("page-not-found", { err })
+    next(err)
+});
+
+app.use((err, req, res, next) => {
+    if (err.status === 404) {
+        res.status(404).render("page-not-found", { err });
+    } else {
+        err.message = "Oops, something went wrong. This maybe a server issue. Please be patient, we are working very hard to fix this."
+        res.status(err.status || 500).render("error", { err })
+    }
+    console.log(err.message);
 });
 
 // setup developmentserver

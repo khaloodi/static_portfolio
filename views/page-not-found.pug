@@ -1,14 +1,12 @@
 
-article.portfolio-intro
-  h1 404 - Page Not Found
-  p Oops!  It looks like the page you're looking for does not exist.
+h1 404 - Page Not Found
+p=err.message
 
-  if err 
-      div.stacktrace
-          hr
-          //- pre #{err.stack}
+//- if err 
+//-     div.stacktrace
+hr
 
-  nav.nav
-    a(href='/')
-      span &larr;
-      |  Back
+nav.nav
+  a(href='/')
+    span &larr;
+    |  Back
